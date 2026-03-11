@@ -27,6 +27,6 @@ public class FunctionDemo {
 
     public static void main(String[] args) {
         sum();
-        sum(10,20);
+        sum(10,20); // sum function overloading
     }
 }
