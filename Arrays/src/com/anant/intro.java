@@ -55,6 +55,12 @@ public class intro {
         Restriction on Primitives: It is important to note that you cannot assign null to primitive types like int or char;
         it can only be assigned to reference types.
        */
+        String[] ar = {"hi", "hello"};
+        greet(ar); // passing array into function
+    }
 
+    public static void greet(String[] ar)
+    {
+        System.out.println(Arrays.toString(ar));
     }
 }
