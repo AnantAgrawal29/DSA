@@ -1,4 +1,4 @@
-package com.anant;
+package com.array;
 
 import java.util.Arrays;
 import java.util.Scanner;

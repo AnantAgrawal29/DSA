@@ -1,4 +1,4 @@
-package com.anant;
+package com.array;
 import java.util.Scanner;
 public class forEach {
     public static void main(String[] args) {

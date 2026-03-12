@@ -1,4 +1,4 @@
-package com.anant;
+package com.array;
 import java.util.*;
 public class intro {
     public static void main(String[] args)
