@@ -24,10 +24,14 @@ public class ArrayListDemo {
             list.add(sc.nextInt());
         }
         System.out.println(list);
-        list.clear();
+        System.out.println(list.size()); // size of Array List
+        Collections.sort(list); // sorting function of list
         System.out.println(list);
 
 //        System.out.println(list[2]); can't access the elements like this
         System.out.println(list.get(2)); // for getting an element
+
+        list.clear(); // clears the list
+        System.out.println(list);
     }
 }
