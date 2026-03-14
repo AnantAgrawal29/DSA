@@ -19,7 +19,6 @@ public class LinearSearch2D {
         int target = 34;
         System.out.println(Arrays.toString(search(ar, target)));
         System.out.println(Integer.MIN_VALUE);
-        System.out.println(findNumbers(new int[]{23,1,456,1234}));
         System.out.println(count(12343424));
     }
 
@@ -48,5 +47,19 @@ public class LinearSearch2D {
             if(Integer.toString(num).length()%2==0) // or count method above
                 countNum++;
         return countNum;
+    }
+
+    // LeetCode Question 1672
+    public int maximumWealth(int[][] accounts) {
+        int maxSum = Integer.MIN_VALUE;
+        for(int[] acc: accounts)
+        {
+            int sum = 0;
+            for(int ac: acc)
+                sum += ac;
+            if(sum>maxSum)
+                maxSum=sum;
+        }
+        return maxSum;
     }
 }
