@@ -12,6 +12,7 @@ public class Prob989Imp {
                 k+=num[i];
             l.add(k%10);
             k/=10;
+
         }
         Collections.reverse(l);
         return l;
