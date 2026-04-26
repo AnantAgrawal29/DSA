@@ -8,6 +8,11 @@ public class Swap {
         Scanner sc = new Scanner(System.in);
         int[] ar = {1,25,3,14};
         System.out.println(Arrays.toString(ar));
+
+        // Deep Copy of Array
+        int[] arr = Arrays.copyOf(ar, ar.length);
+        System.out.println(Arrays.toString(arr));
+
         swap(ar,1,3);
         System.out.println(Arrays.toString(ar));
         int m = max(ar,0,ar.length);
