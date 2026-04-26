@@ -1,4 +1,4 @@
-package com.problems;
+package com.problems.easy;
 /*
 Code
 1217. Minimum Cost to Move Chips to The Same Position Easy

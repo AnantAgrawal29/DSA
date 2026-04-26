@@ -1,4 +1,4 @@
-package com.problems;
+package com.problems.medium;
 // Kadane's Algorithm
 // https://www.youtube.com/watch?v=AHZpyENo7k4
 /*

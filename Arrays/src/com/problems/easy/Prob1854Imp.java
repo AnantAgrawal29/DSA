@@ -1,4 +1,4 @@
-package com.problems;
+package com.problems.easy;
 // prefix sum and array from year wise according to given constraints
 public class Prob1854Imp {
     public static int maximumPopulation(int[][] logs) {
